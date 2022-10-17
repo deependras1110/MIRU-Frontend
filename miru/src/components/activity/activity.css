@@ -1,0 +1,11 @@
+.activity-container{
+    border-radius: 10px;
+    padding: 5px;
+    border:1px solid black;
+    margin: 5px;
+}
+a{ 
+    text-decoration: none;
+    color: grey;
+    white-space: nowrap;
+}
