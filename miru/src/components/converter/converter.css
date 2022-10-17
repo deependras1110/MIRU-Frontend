@@ -1,0 +1,20 @@
+.converter-container{
+    width: 30%;
+    height: 200px;
+    /* background-color: rgb(255, 233, 202,0.2); */
+    border-radius: 20px;
+    border:1px solid rgb(251, 137, 135);
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+    text-align: center;
+}
+.eg-icon{
+    font-size: 30px;
+    color: rgb(251, 137, 135);
+}
+@media screen and (max-width: 768px) {
+    .converter-container{
+        width: 70%;
+        height: 200px;
+    }
+}

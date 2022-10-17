@@ -1,0 +1,10 @@
+.page-head{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px 40px 20px 40px;
+    color: rgb(0, 0, 0,0.8);
+}
+.page-head-txt{
+    margin-left: 10px;
+}

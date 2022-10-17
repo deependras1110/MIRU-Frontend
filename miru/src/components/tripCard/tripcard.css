@@ -1,0 +1,45 @@
+
+.tripcard-container{
+    width: 30%;
+    height: 180px;
+    background-color: rgb(255, 233, 202,0.2);
+    border-radius: 20px;
+    border:1px solid rgb(251, 137, 135);
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+}
+.tc-top{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.tc-head{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(87, 85, 85);
+}
+.tc-title{
+    height: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(251, 137, 135);
+}
+.tc-desc{
+    height: 50%;
+    color: rgb(87, 85, 85);
+    font-weight: 500;
+    margin-top: 30px;
+}
+.tc-bottom{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+@media screen and (max-width: 768px) {
+    .tripcard-container{
+        width: 70%;
+        height: 200px;
+      
+    }
+}

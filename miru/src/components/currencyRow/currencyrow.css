@@ -1,0 +1,30 @@
+.row-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 10px 20px;
+
+}
+
+.input-amount{
+    height: 40px;
+    width: 70%;
+    font-size: 20px;
+    background-color: rgb(250, 234, 214,0.7);
+    border: none;
+    color: rgb(0,0,0,0.8);
+    font-weight: 500;
+
+}
+
+.currency-select{
+    margin-left: 10px;
+    height: 50px;
+    width: 30%;
+    font-size : 20px;
+    background-color: rgb(250, 234, 214,0.7);
+    border: none;
+    color: black;
+    color: rgb(0,0,0,0.8);
+    -webkit-appearance: none;
+}
+
