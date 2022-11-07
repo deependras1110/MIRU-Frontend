@@ -1,0 +1,57 @@
+.qtcard-container{
+    justify-content: space-between;
+    border: 1px solid rgb(251, 137, 135);
+    height: 150px;
+    width: 50%;
+    margin: 0px 0px 20px 0px;
+    border-radius: 20px;
+    
+}
+.qtcard-top{
+    margin: 20px;
+}
+.qt-en{
+    color: rgb(36, 36, 36,0.8);
+    font-size: 23px;
+    font-weight: 500;
+}
+.qt-jp{
+    color: rgb(251,137,135);
+    font-size: 18px;
+    font-weight: 500;
+}
+.qtcard-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.qt-pronounce{
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+}
+.qt-controls{
+  
+    
+}
+
+@media screen and (max-width: 768px){
+    .qtcard-container{
+        width: 95%;
+    }
+    .qt-audio{
+        width: 100px;
+        height: 50px;
+    }
+   
+    audio::-webkit-media-controls-timeline,
+    video::-webkit-media-controls-timeline {
+        display: none;
+    }
+    
+    audio::-webkit-media-controls-current-time-display,
+    audio::-webkit-media-controls-time-remaining-display {
+        display: none;
+    }
+}
