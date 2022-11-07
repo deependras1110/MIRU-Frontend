@@ -1,0 +1,39 @@
+.page-head{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 20px 40px 20px 40px;
+    color: rgb(0, 0, 0,0.8);
+}
+.page-head-txt{
+    margin-left: 10px;
+}
+
+.qt-cards{
+    margin: 20px;
+}
+.qt-sbcontainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    width: 48%;
+    margin: 20px 20px 20px 20px;
+    padding: 3px;
+    border-radius: 10px; 
+}
+.qt-searchbar{
+    width: 100%;
+    background-color: none;
+    border: none;
+    font-size: 16px; 
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 768px){
+   .qt-sbcontainer{
+        width: 80%;
+   }
+}

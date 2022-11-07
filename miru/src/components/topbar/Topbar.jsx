@@ -18,13 +18,16 @@ function Topbar() {
         className= {isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="/itinerary">Itinerary</a>
           </li>
           <li>
             <a href="/currencyexchange">Currency Converter</a>
+          </li>
+          <li>
+            <a href="/translation">Quick Translation</a>
           </li>
         </ul>
       </div>
