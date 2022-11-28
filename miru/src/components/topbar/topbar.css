@@ -8,6 +8,7 @@
     padding: 0.5rem 0rem;
     background-color: rgb(251, 137, 135);
     color: black;
+    z-index: 100000;
 }
 
 .brand-name{
@@ -86,4 +87,9 @@
         width:100%;
         padding: 1.5rem 0
     }
+  }
+
+  .topbarlist a{
+    color: white;
+    font-weight: 500;
   }

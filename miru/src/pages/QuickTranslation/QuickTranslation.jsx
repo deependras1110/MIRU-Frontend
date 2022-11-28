@@ -33,9 +33,20 @@ function QuickTranslation() {
         
         <div className="qt-cards">
             {
+                filteredFiles.length > 0 ? 
                 filteredFiles.map((a) => {
                     return <QtCard data={a}/>
-                })
+                }) : 
+                <>No Matching Result</>
+            }
+        </div>
+        <div className="qt-cards">
+            {
+                filteredFiles.length > 0 ? 
+                filteredFiles.map((a) => {
+                    return <QtCard data={a}/>
+                }) : 
+                <>No Matching Result</>
             }
         </div>
     </div>

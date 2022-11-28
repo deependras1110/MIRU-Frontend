@@ -34,7 +34,7 @@ function Itinerary() {
                 })
             }
             </> 
-            : <div className='ser-err-msg'>Unable to get the trip info</div>
+            : <div className='ser-err-msg'>Unable to get the trip info!</div>
           }
             
         </div>

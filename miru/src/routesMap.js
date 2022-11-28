@@ -1,5 +1,6 @@
 import React from "react";
 import CurrencyExchange from "./pages/CurrencyExchange/CurrencyExchange";
+import EmergencyContacts from "./pages/EmergencyContacts/EmergencyContacts";
 import Home from "./pages/Home/Home";
 import Itinerary from "./pages/Itinerary/Itinerary";
 import QuickTranslation from "./pages/QuickTranslation/QuickTranslation";
@@ -21,6 +22,10 @@ const routesMap = () => {
     {
       path: "/translation",
       element: <QuickTranslation />,
+    },
+    {
+      path: "/emergencycontacts",
+      element: <EmergencyContacts />,
     },
   ];
 };

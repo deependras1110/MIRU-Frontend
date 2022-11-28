@@ -16,7 +16,7 @@ function Topbar() {
       </button>
       <div
         className= {isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
-        <ul>
+        <ul className='topbarlist'>
           <li>
             <a href="/">Home</a>
           </li>
@@ -28,6 +28,9 @@ function Topbar() {
           </li>
           <li>
             <a href="/translation">Quick Translation</a>
+          </li>
+          <li>
+            <a href="/emergencycontacts">Emergency Contacts</a>
           </li>
         </ul>
       </div>

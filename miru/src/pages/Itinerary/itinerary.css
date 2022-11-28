@@ -8,3 +8,11 @@
 .page-head-txt{
     margin-left: 10px;
 }
+.ser-err-msg{
+    padding: 10px;
+    width: max-content;
+    margin: 25px;
+    color: crimson;
+    border: 2px solid;
+    border-radius: 10px;
+}

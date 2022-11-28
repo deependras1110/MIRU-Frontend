@@ -1,0 +1,47 @@
+.eccard-container{
+    height:min-content;
+    margin: 20px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+}
+.eccard-top{
+    font-size: 20px;
+    color: salmon;
+    margin: 10px;
+    font-weight: 500;
+}
+.eccard-desc{
+    font-size: 15px;
+    margin: 10px;
+    color: rgb(62, 62, 62);
+}
+.ec-call{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.call-left{
+    width: 50%;
+}
+.call-right{
+    border: 1px solid salmon;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.cr{
+    display: flex;
+    align-items: center;
+}
+.cr-icon{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .eccard-container{
+        width: 80%;
+    }
+}
