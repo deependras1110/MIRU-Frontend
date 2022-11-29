@@ -3,6 +3,7 @@ import TripCard from '../../components/tripCard/TripCard'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import {  BsCalendarEvent } from 'react-icons/bs';
+import { itineraryLocal } from '../../data/itineraryLocal';
 
 
 
@@ -34,7 +35,11 @@ function Itinerary() {
                 })
             }
             </> 
-            : <div className='ser-err-msg'>Unable to get the trip info!</div>
+            : <div>{
+              itineraryLocal.map((data, index ) => {
+                return <TripCard data={data} index={index}/>
+              })
+          }</div>
           }
             
         </div>
