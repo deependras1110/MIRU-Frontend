@@ -1,3 +1,7 @@
 .home-container{
     
 }
+.homenavigations{
+    display: flex;
+    flex-direction: column;
+}
