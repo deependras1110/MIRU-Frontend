@@ -30,6 +30,9 @@ function Topbar() {
             <a href="/translation">Quick Translation</a>
           </li>
           <li>
+            <a href="/dorminformation">Dorm Information</a>
+          </li>
+          <li>
             <a href="/emergencycontacts">Emergency Contacts</a>
           </li>
         </ul>

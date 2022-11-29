@@ -1,5 +1,6 @@
 import React from "react";
 import CurrencyExchange from "./pages/CurrencyExchange/CurrencyExchange";
+import DormInformation from "./pages/DormInformation/DormInformation";
 import EmergencyContacts from "./pages/EmergencyContacts/EmergencyContacts";
 import Home from "./pages/Home/Home";
 import Itinerary from "./pages/Itinerary/Itinerary";
@@ -26,6 +27,10 @@ const routesMap = () => {
     {
       path: "/emergencycontacts",
       element: <EmergencyContacts />,
+    },
+    {
+      path: "/dorminformation",
+      element: <DormInformation />,
     },
   ];
 };

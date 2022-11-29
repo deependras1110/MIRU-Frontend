@@ -1,0 +1,43 @@
+.di-cardcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 180px;
+    background-color: rgb(255, 233, 202,0.3);
+    border-radius: 20px;
+    border:1px solid rgb(251, 137, 135);
+    margin: 40px 40px 20px 40px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.di-name{
+    font-size: 20px;
+    margin-bottom: 7px;
+    
+}
+.di-city{
+    color:grey;
+    font-weight: 500;
+}
+.di-cardbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.di-cardbottom .left{
+    border: 2px solid grey;
+    padding: 7px 10px 7px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.navigate-icon{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .di-cardcontainer{
+        width: 70%;
+        height: 150px;
+    }
+}
